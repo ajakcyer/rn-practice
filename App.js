@@ -10,11 +10,11 @@ import { StyleSheet, Text, View, Button, TextInput } from "react-native";
 export default function App() {
 
   return (
-    <View>
+    <View style={{padding: 30}}>
       
       <View>
-        <TextInput/>
-        <Button title="Click Me"/>
+        <TextInput placeholder="Course Goal"/>
+        <Button title="Add"/>
       </View>
       <View>
 
