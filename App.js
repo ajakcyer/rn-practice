@@ -22,12 +22,13 @@ export default function App() {
     //   </View>
     // </View>
 
-    <View style={{padding: 50, flexDirection: 'row'}}>
+    <View style={{padding: 50, flexDirection: 'row', width: '80%', height: 300, justifyContent: 'space-around', alignItems: 'stretch'}}>
       <View
       style={{
         backgroundColor: 'red',
-        width: 100,
-        height: 100,
+        flex: 1,
+        // width: 100,
+        // height: 100,
         justifyContent: 'center',
         alignItems: 'center'}}>
         <Text>1</Text>
@@ -36,8 +37,9 @@ export default function App() {
       <View
       style={{
         backgroundColor: 'blue',
-        width: 100,
-        height: 100,
+        // width: 100,
+        // height: 100,
+        flex: 2,
         justifyContent: 'center',
         alignItems: 'center'}}>
         <Text>2</Text>
@@ -46,8 +48,8 @@ export default function App() {
       <View
       style={{
         backgroundColor: 'green',
-        width: 100,
-        height: 100,
+        // width: 100,
+        // height: 100,
         justifyContent: 'center',
         alignItems: 'center'}}>
         <Text>3</Text>
