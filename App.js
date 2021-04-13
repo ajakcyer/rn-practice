@@ -8,18 +8,16 @@ import { StyleSheet, Text, View, Button } from "react-native";
 //plus button opens modal for enter goal information
 
 export default function App() {
-  // const [outputText, setOutputText] = useState(
-  //   "Open up App.js to start working on your app!"
-  // );
 
   return (
     <View style={styles.container}>
-      {/* <Text>{outputText}</Text>
-      <Button
-        title="Change Text"
-        onPress={() => setOutputText("The text changed!")}
-      /> */}
-      <Text>Text error will show if no Text Component</Text>
+      
+      <View>
+        
+      </View>
+      <View>
+
+      </View>
       <StatusBar style="auto" />
     </View>
   );
