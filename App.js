@@ -19,7 +19,7 @@ export default function App() {
         title="Change Text"
         onPress={() => setOutputText("The text changed!")}
       /> */}
-      
+      <Text>Text error will show if no Text Component</Text>
       <StatusBar style="auto" />
     </View>
   );
