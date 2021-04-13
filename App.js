@@ -13,7 +13,8 @@ export default function App() {
     <View style={styles.container}>
       
       <View>
-        
+        <Text></Text>
+        <Button title=""/>
       </View>
       <View>
 
