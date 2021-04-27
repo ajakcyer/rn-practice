@@ -8,18 +8,21 @@ import { StyleSheet, Text, View, Button, TextInput } from "react-native";
 //plus button opens modal for enter goal information
 
 export default function App() {
-
   return (
     <View style={styles.screen}>
-      
-      <View style={{flexDirection: 'row', justifyContent: 'space-between', alignItems: 'center'}}>
-        
-        <TextInput placeholder="Course Goal" style={{borderColor: 'black', borderWidth: 1, padding: 10, width: '80%'}}/>
-        <Button title="Add"/>
+      <View style={styles.inputContainer}>
+        <TextInput
+          placeholder="Course Goal"
+          style={{
+            borderColor: "black",
+            borderWidth: 1,
+            padding: 10,
+            width: "80%",
+          }}
+        />
+        <Button title="Add" />
       </View>
-      <View>
-
-      </View>
+      <View></View>
     </View>
 
     // <View style={{padding: 50, flexDirection: 'row', width: '80%', height: 300, justifyContent: 'space-around', alignItems: 'stretch'}}>
@@ -56,10 +59,6 @@ export default function App() {
     //   </View>
 
     // </View>
-
-
-
-
   );
 }
 
@@ -74,6 +73,11 @@ export default function App() {
 
 const styles = StyleSheet.create({
   screen: {
-    padding: 50
-  }
-})
+    padding: 50,
+  },
+  inputContainer: {
+    flexDirection: "row",
+    justifyContent: "space-between",
+    alignItems: "center",
+  },
+});
