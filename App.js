@@ -11,7 +11,7 @@ export default function App() {
 
   const [enteredGoal, setEnteredGoal] = useState('')
 
-  function goalInputHandler(enteredText){
+  const goalInputHandler = (enteredText) => {
     setEnteredGoal(enteredText)
   }
 
