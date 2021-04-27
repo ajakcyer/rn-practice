@@ -13,12 +13,7 @@ export default function App() {
       <View style={styles.inputContainer}>
         <TextInput
           placeholder="Course Goal"
-          style={{
-            borderColor: "black",
-            borderWidth: 1,
-            padding: 10,
-            width: "80%",
-          }}
+          style={styles.input}
         />
         <Button title="Add" />
       </View>
@@ -80,4 +75,10 @@ const styles = StyleSheet.create({
     justifyContent: "space-between",
     alignItems: "center",
   },
+  input: {
+    borderColor: "black",
+    borderWidth: 1,
+    padding: 10,
+    width: "80%",
+  }
 });
