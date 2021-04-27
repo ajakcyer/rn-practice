@@ -10,7 +10,7 @@ import { StyleSheet, Text, View, Button, TextInput } from "react-native";
 export default function App() {
 
   return (
-    <View style={{padding: 30}}>
+    <View style={styles.screen}>
       
       <View style={{flexDirection: 'row', justifyContent: 'space-between', alignItems: 'center'}}>
         
@@ -73,5 +73,7 @@ export default function App() {
 // });
 
 const styles = StyleSheet.create({
-  
+  screen: {
+    padding: 50
+  }
 })
