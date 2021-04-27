@@ -8,6 +8,9 @@ import { StyleSheet, Text, View, Button, TextInput } from "react-native";
 //plus button opens modal for enter goal information
 
 export default function App() {
+
+  const [enteredGoal, setEnteredGoal] = useState('')
+
   return (
     <View style={styles.screen}>
       <View style={styles.inputContainer}>
